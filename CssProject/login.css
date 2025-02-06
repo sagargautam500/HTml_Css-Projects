@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: rgb(162, 122, 200); */
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.outerbox{
+    background: linear-gradient(to top left,blue,pink);
+    height: 100vh;
+    width: 100vw;
+}
+.innerbox{
+    width: 400px;
+    margin: 0,auto;
+    position: relative;
+    top: 10%;
+    left: 30%;
+    padding: 20px 40px;
+    /* background-color: rgb(117, 155, 143); */
+    background: linear-gradient(to top left,rgb(230, 170, 180),rgb(144, 132, 110));
+    border:4px solid rgb(132, 102, 91);
+    box-shadow: 2px 2px 2px rgb(200, 155, 200);
+    z-index: 2;
+}
+header h1{
+    font-size: 3rem;
+    color: rgb(40, 29, 29);
+}
+header p{
+    font-size: 0.9rem;
+    color: rgb(83, 85, 88);
+    margin: 10px;
+}
+
+form{
+    margin:40px 0 ;
+}
+form p{
+    margin: 20px 0;
+}
+form p label{
+display: block;
+font-weight: bold;
+}
+form p input{
+    width: 90%;
+    padding: 7px;
+    border: 3px solid rgb(222, 218, 218);
+    border-radius: 4px;
+    font-size: 1rem;
+}
+form p input[type="submit"]{
+    background-color: rgb(144, 201, 58);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+form p input[type="submit"]:hover{
+    background-color:  rgb(72, 112, 12);
+}
+footer p{
+ color: rgb(61, 56, 56);
+ text-align: center;
+}
+footer p a{
+    color:rgb(86, 121, 33); ;
+}
+.circle {
+    background:linear-gradient(to top right,rgb(51, 51, 218),rgb(225, 190, 196));
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 50px;
+    
+}
+.c1{
+    top: 100px;
+    left: 40px;
+}
+.c2{
+    bottom: 200px;
+    right: 50px;
+}

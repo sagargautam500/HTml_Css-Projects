@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition&transform</title>
+    <!-- <link rel="stylesheet" href="TTA.css"> -->
+     <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(31, 91, 150);
+    height: 60vh;
+    width: 60vw;
+    margin: 100px auto;
+}
+.box{
+    background-color: rgb(227, 85, 85);
+    height: 10rem;
+    /* height: 6%; */
+    width: 10rem;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transform-origin: bottom; */
+    /* transform-origin: 94%,85%; */
+    /* transform: scale(0.5); */
+    /* transform: scaleX(2); */
+    /* transform: scale(2,1); */
+    /* transform: scaleZ(3); */
+    transform: translate(80%,80%);
+    /* transform: translate(14px,-14px); */
+    /* transform: translate(-30px); */
+    /* transform: translate(40px); */
+    /* transform: rotate(34deg); */
+    /* transform: rotateX(80deg); */
+    /* transform: rotateY(16deg); */
+    /* transform: rotateZ(34deg); */
+    /* transform: skew(20deg,15deg); */
+    /* transform: skew(40deg,40deg); */
+    
+    /* transition: 1s ease-in; */
+    transition:border-radius 0.5s ease-in-out;
+
+}
+.box:hover{
+/* transform: rotate(45deg); */
+background-color: blueviolet;
+border-radius: 50%;
+}
+     </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Box</div>
+    </div>
+</body>
+</html>

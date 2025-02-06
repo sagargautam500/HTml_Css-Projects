@@ -1,0 +1,48 @@
+@media screen and (max-width:768px) {
+    .nav-toggle{
+        display: block;
+        padding-top: 10px;
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+    .nav-links{
+        display: none;
+    }
+    .big-feature-container{
+        flex-direction: column;
+    }
+    .examples-area{
+        gap: 10px;
+    }
+    
+    .example-card{
+        width: calc(50%-10px);
+        height: 180px;
+    }
+    .cta-section{
+        padding-block: 80px;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .primary-button{
+        width: 100%;
+        text-align: center;
+    }
+    .header-sec{
+        flex-direction: column-reverse;
+    } 
+    .header-left{
+        align-content: center;
+        max-width: 80vw;
+    }
+   
+    .footer-container,.sub-footer{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+.link-column{
+    align-items:center;
+}
+}

@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(170, 197, 177);
+}
+
+.container{
+    /* background-color: beige; */
+    max-width: 1180px;
+    margin-inline: auto;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.flex{
+    display: flex;
+    align-content: center;
+    
+}
+a{
+    text-decoration: none;
+    margin: 0 20px;
+}
+a:hover{
+    color: #6e5a5a;
+}
+.header-part{
+    justify-content: space-between;
+}
+.get-btn{
+    border: 2px solid rgb(69, 61, 61);
+    border-radius: 10px;
+    width: fit-content;
+    padding: 10px;
+}
+.main-part{
+    justify-content: space-around;
+}
+
+.paragraph{
+    padding-inline: 10px;
+    width: 30vw;
+}
+.paragraph p{
+    margin: 20px;
+}
+.price-btn{
+    background-color:rgb(37, 195, 145);
+    color: white;
+}
+.price-btn:hover{
+    background-color: aqua;
+    color: aliceblue;
+    border-color: #6e5a5a;
+}
+
+
+form{
+    background-color: aliceblue;
+    /* margin: 10px; */
+    padding: 20px;
+}
+form p{
+    margin: 10px 0;
+}
+input{
+    padding: 5px;
+    border: none;
+}
+#select{
+    width: 170px;
+    border: none;
+}
+#submit{
+    position: relative;
+    left: 20px;
+    top:5px ;
+    background-color:rgb(37, 195, 145);
+    color: white;
+    width: 150px;
+    border-radius: 80px;
+}
+#submit:hover{
+    background-color: aqua;
+    color: aliceblue;
+}
+
+main{
+    margin-top: 100px;
+}
+
+.outerbox{
+    background: linear-gradient(to top left,blue,pink);
+    height: 100vh;
+    width: 100vw;
+}

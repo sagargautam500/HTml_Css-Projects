@@ -1,0 +1,23 @@
+/* Universal css part ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outerbox{
+    background: linear-gradient(to bottom right,rgb(202, 193, 194),rgb(56, 56, 188));
+    width: 100vw;
+    height:110vh;
+}
+
+.container{
+background-color:aquamarine;
+max-width: 85vw;
+margin-inline:auto;
+padding:20px;
+}
+
+.flex{
+    display: flex;
+}

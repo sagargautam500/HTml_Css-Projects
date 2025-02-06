@@ -1,0 +1,69 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 48px;
+}
+/* pseudo-class:::::::::::::::::::; */
+.primary-btn:link{
+    background-color: rgb(177, 187, 196);
+    /* color: black; */
+}
+.primary-btn:hover{
+    color: rgb(181, 127, 79);
+}
+.primary-btn:visited{
+    color: brown;
+}
+.primary-btn:active{
+    color: black;
+    background-color: white;
+    border: 2px solid rgb(130, 51, 51);
+}
+ul li:first-child{
+   color: #e91313; 
+   padding: 10px 0;
+
+}
+ul li:last-child{
+    color: blueviolet;
+    border: 2px dashed red;
+    width: fit-content;
+}
+ul li:nth-child(4){
+    color: aqua;
+}
+
+/* pseudo-elements :::::::::::::::::::::::::::::*/
+::selection{
+    background-color: aquamarine;
+    color: red;
+
+}
+h1::first-letter{
+    /* color: #b35050; */
+    font-size: 3rem;
+}
+p::first-line{
+    background-color: cadetblue;
+}
+
+h2::before{
+    content: 'Any ';
+   background-color: rgb(117, 78, 194);
+}
+h2::after{
+    content: '*';
+}
+
+.required::after{
+   content: '*';
+   color: #e91313;
+}
+.imp::after{
+    content: 'important';
+    background-color: orangered;
+    color: antiquewhite;
+    padding: 0.2rem;
+    font-size: 0.5rem;
+    margin-left: 10px;
+    vertical-align: middle;
+}

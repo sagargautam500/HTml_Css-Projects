@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Document</title>
+</head>
+
+<body>
+    <h1> Student Registration Form</h1>
+    <form action="sagar.php">
+        <fieldset>
+            <legend>Enter yours detail's:::</legend>
+            <label for="firstname">First Name:</label>
+            <input type="text" id="firstname" placeholder="Enter first name"><br><br>
+            <label for="middlename">Middle Name:</label>
+            <input type="text" id="middlename" placeholder="Enter middle name"><br><br>
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastname" placeholder="Enter last name"><br><br>
+            <label for="gender">Gender: </label>
+            <input type="radio" id="gender" value="male" name="Gender">Male
+            <input type="radio" id="gender" value="female" name="Gender">Female
+            <input type="radio" id="gender" value="other" name="Gender">Other<br><br>
+            <!-- <input type="checkbox" id="gender" name="Gender">Male
+            <input type="checkbox" id="gender" name="Gender">Female
+            <input type="checkbox" id="gender" name="Gender">Other -->
+            <label for="city">City: </label>
+            <input type="text" id="city" placeholder="enter your city name"><br><br>
+            <label for="pincode">Pin Code: </label>
+            <input type="number" id="pincode" placeholder="enter pincode of city"><br><br>
+            <label for="state">State: </label>
+            <input type="text" id="state" placeholder="enter your state"><br><br>
+            <label for="country">Country: </label>
+            <input type="text" id="country" placeholder="enter your country name"><br><br>
+            <label for="mblnbr">Mobile Number:</label>
+            <input type="number" id="mblnbr" placeholder="enter your mobile number"><br><br>
+            <label for="email">Email ID: </label>
+            <input type="email" id="email" placeholder="enter your email id"><br><br>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" placeholder="enter your date of birth"><br><br>
+            <label for="hobby">Hobbies: </label>
+            <input type="checkbox" id="hobby">Drawing
+            <input type="checkbox" id="hobby">Singing
+            <input type="checkbox" id="hobby">Dancing
+            <input type="checkbox" id="hobby">Sketching<br>
+            <input type="checkbox" id="hobby">Others
+            <input type="text" id="hobby" placeholder="Ex-Teaching"><br><br>
+            <label for="quali">Qualification:</label><br>
+            <input type="checkbox" id="quali">High School(10th)<br>
+            <input type="checkbox" id="quali">Higher School(12th)<br>
+            <input type="checkbox" id="quali">Graduation(Bachlors)<br>
+            <input type="checkbox" id="quali">Post Graduation(Masters)<br>
+            <input type="checkbox" id="quali">Phd<br><br>
+            <label for="course">Courses Applied For:</label>
+            <select id="course">
+                <option id="course">Choose a Course</option>
+                <option id="course">BCA</option>
+                <option id="course">B.Com</option>
+                <option id="course">B.Sc</option>
+                <option id="course">BA</option>
+                <option id="course">MCA</option>
+                <option id="course">M.Com</option>
+                <option id="course">M.Sc</option>
+                <option id="course">MA</option>
+            </select><br><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
